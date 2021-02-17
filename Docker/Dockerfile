@@ -10,7 +10,7 @@ RUN apt install libffi-dev -y
 RUN apt install git -y
 RUN apt install python-dev -y
 
-RUN wget https://bootstrap.pypa.io/get-pip.py && \
+RUN wget https://bootstrap.pypa.io/2.7/get-pip.py && \
     python get-pip.py
 
 RUN wget https://github.com/mopidy/libspotify-archive/raw/master/libspotify-12.1.51-Linux-x86_64-release.tar.gz && \
